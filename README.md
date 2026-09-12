@@ -1,16 +1,106 @@
-# React + Vite
+# ✅ Lista de Tarefas — CP4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em **React** como parte do **Checkpoint 4**, com o objetivo de praticar a criação de interfaces interativas, gerenciamento de estados e organização de componentes.
 
-Currently, two official plugins are available:
+O projeto consiste em uma lista de tarefas onde o usuário pode adicionar, visualizar e gerenciar suas atividades de forma simples e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ **React**
+* ⚡ **Vite**
+* 🟨 **JavaScript**
+* 🎨 **CSS**
+* 🔧 **ESLint**
+* 📦 **NPM**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+* ➕ Adicionar novas tarefas
+* 📋 Visualizar tarefas cadastradas
+* ✅ Gerenciar o status das tarefas
+* 🗑️ Remover tarefas
+* 🔄 Atualização dinâmica da interface
+* 📱 Interface responsiva
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+ListaTarefasCP4/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 💻 Como executar o projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/JoaoB-DevBr/ListaTarefasCP4.git
+```
+
+### 2. Entre na pasta
+
+```bash
+cd ListaTarefasCP4
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute o projeto
+
+```bash
+npm run dev
+```
+
+Depois, acesse a URL exibida pelo Vite no terminal, normalmente:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com foco no aprendizado e prática de conceitos fundamentais do **React**, incluindo:
+
+* Componentização
+* JSX
+* Hooks
+* Gerenciamento de estado
+* Eventos
+* Renderização dinâmica
+* Organização de projetos frontend
+* Desenvolvimento utilizando Vite
+
+---
+
+## Integrantes
+João Benedito - RM570206
+Isac Nilton - RM573282
+Leonardo Formigari - RM573291
