@@ -1,8 +1,8 @@
 # ✅ Lista de Tarefas — CP4
 
-Aplicação web desenvolvida em **React** como parte do **Checkpoint 4**, com o objetivo de praticar a criação de interfaces interativas, gerenciamento de estados e organização de componentes.
+Aplicação web desenvolvida em **React** como parte do **Checkpoint 4**, com foco na criação de uma aplicação de gerenciamento de tarefas utilizando componentes, estados e interação dinâmica com o usuário.
 
-O projeto consiste em uma lista de tarefas onde o usuário pode adicionar, visualizar e gerenciar suas atividades de forma simples e intuitiva.
+O projeto permite que o usuário organize suas tarefas de maneira simples e intuitiva através de uma interface desenvolvida com **React, Vite e Tailwind CSS**.
 
 ---
 
@@ -11,7 +11,7 @@ O projeto consiste em uma lista de tarefas onde o usuário pode adicionar, visua
 * ⚛️ **React**
 * ⚡ **Vite**
 * 🟨 **JavaScript**
-* 🎨 **CSS**
+* 🎨 **Tailwind CSS**
 * 🔧 **ESLint**
 * 📦 **NPM**
 
@@ -21,10 +21,11 @@ O projeto consiste em uma lista de tarefas onde o usuário pode adicionar, visua
 
 * ➕ Adicionar novas tarefas
 * 📋 Visualizar tarefas cadastradas
-* ✅ Gerenciar o status das tarefas
+* ✅ Gerenciar tarefas
 * 🗑️ Remover tarefas
 * 🔄 Atualização dinâmica da interface
 * 📱 Interface responsiva
+* 🎨 Estilização utilizando Tailwind CSS
 
 ---
 
@@ -40,6 +41,7 @@ ListaTarefasCP4/
 │   ├── main.jsx
 │   └── ...
 │
+├── public/
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -59,7 +61,7 @@ ListaTarefasCP4/
 git clone https://github.com/JoaoB-DevBr/ListaTarefasCP4.git
 ```
 
-### 2. Entre na pasta
+### 2. Acesse a pasta do projeto
 
 ```bash
 cd ListaTarefasCP4
@@ -77,7 +79,9 @@ npm install
 npm run dev
 ```
 
-Depois, acesse a URL exibida pelo Vite no terminal, normalmente:
+Após iniciar o servidor, acesse a URL disponibilizada pelo Vite no terminal.
+
+Normalmente:
 
 ```text
 http://localhost:5173
@@ -85,22 +89,30 @@ http://localhost:5173
 
 ---
 
-## 🎯 Objetivo do projeto
+## 🎯 Objetivo do Projeto
 
-Este projeto foi desenvolvido com foco no aprendizado e prática de conceitos fundamentais do **React**, incluindo:
+O projeto foi desenvolvido com o objetivo de colocar em prática conceitos fundamentais do desenvolvimento **Frontend com React**, criando uma aplicação funcional para gerenciamento de tarefas.
+
+Entre os principais conceitos trabalhados estão:
 
 * Componentização
 * JSX
 * Hooks
-* Gerenciamento de estado
+* Gerenciamento de estados
 * Eventos
 * Renderização dinâmica
-* Organização de projetos frontend
-* Desenvolvimento utilizando Vite
+* Manipulação de dados
+* Responsividade
+* Estilização com Tailwind CSS
+* Organização de projetos React
 
 ---
 
-## Integrantes
-João Benedito - RM570206
-Isac Nilton - RM573282
-Leonardo Formigari - RM573291
+## 👥 Integrantes
+
+| Integrante             |       RM |
+| ---------------------- | -------: |
+| **João Benedito**      | RM570206 |
+| **Isac Nilton**        | RM573282 |
+| **Leonardo Formigari** | RM573291 |
+
